@@ -25,5 +25,6 @@ describe("Home", () => {
         const headingText = await headingEl.getText();
         await expect(headingText).toEqual("Think different. Make different.");
         await expect(headingEl).toHaveText("Think different. Make different.");
+	console.log('check github webhook')
     })
   });
